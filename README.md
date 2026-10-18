@@ -2,7 +2,7 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)](Cargo.toml)
-[![Rust edition: 2024](https://img.shields.io/badge/Rust-2024-orange.svg?logo=rust)](https://doc.rust-lang.org/edition-guide/rust-2024/index.html)
+[![crates.io](https://img.shields.io/crates/v/bicho)](https://crates.io/crates/bicho)
 [![OTLP/HTTP JSON](https://img.shields.io/badge/OTLP-HTTP%20JSON-4de034.svg)](https://opentelemetry.io/docs/specs/otlp/)
 
 Report Rust errors and messages to [Bicho](https://bicho.fyi) over OTLP/HTTP JSON. Use it from a Tokio application or the Rust side of a Tauri app. The webview can use the separate [JavaScript SDK](https://github.com/bicho-fyi/bicho-javascript).
