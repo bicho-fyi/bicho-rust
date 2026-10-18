@@ -1,0 +1,25 @@
+[package]
+name = "bicho"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Report Rust application errors to Bicho over OTLP/HTTP JSON"
+authors = ["FreshJuice <contact@freshjuice.dev>", "Alex Zappa <alex@zappa.dev>"]
+license = "Apache-2.0"
+repository = "https://github.com/bicho-fyi/bicho-rust"
+homepage = "https://bicho.fyi"
+readme = "README.md"
+keywords = ["bicho", "error-tracking", "otlp", "tauri"]
+categories = ["development-tools::debugging", "asynchronous"]
+include = ["src/**", "examples/**", "tests/**", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "ACKNOWLEDGEMENTS.md", "CHANGELOG.md"]
+
+[dependencies]
+httpdate = "1.0.3"
+regex = { version = "1.13.1", default-features = false, features = ["std", "perf", "unicode-case", "unicode-perl"] }
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls"] }
+serde_json = "1.0.154"
+tokio = { version = "1.53.3", features = ["time"] }
+uuid = { version = "1.28.0", features = ["v4"] }
+
+[dev-dependencies]
+tokio = { version = "1.53.3", features = ["macros", "rt-multi-thread", "net", "io-util", "test-util"] }

@@ -1,0 +1,10 @@
+[package]
+name = "bicho-tauri-example"
+version = "1.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bicho = { path = "../.." }
+serde_json = "1.0.154"
+tauri = { version = "2.11.6", default-features = false }
