@@ -1,7 +1,6 @@
 # Bicho Rust
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)](Cargo.toml)
 [![crates.io](https://img.shields.io/crates/v/bicho)](https://crates.io/crates/bicho)
 [![OTLP/HTTP JSON](https://img.shields.io/badge/OTLP-HTTP%20JSON-4de034.svg)](https://opentelemetry.io/docs/specs/otlp/)
 
