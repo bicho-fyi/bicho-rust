@@ -8,11 +8,9 @@ Report Rust errors and messages to [Bicho](https://bicho.fyi) over OTLP/HTTP JSO
 
 ## Add to your project
 
-This crate is not published yet. Use a local path dependency:
-
 ```toml
 [dependencies]
-bicho = { path = "../bicho-rust" }
+bicho = "1.0"
 ```
 
 Create a client using the `otlp.endpoint` and `X-Bicho-Key` from project registration:
@@ -104,4 +102,4 @@ Tests use loopback HTTP servers, not hosted Bicho installations. The core intero
 
 ## License
 
-Copyright 2026 Alex Zappa (FreshJuice). Licensed under Apache-2.0. See [LICENSE](LICENSE) and [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
+Copyright 2026 [Alex Zappa](https://alex.zappa.dev/) ([FreshJuice](https://freshjuice.dev/)). Licensed under Apache-2.0. See [LICENSE](LICENSE) and [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
